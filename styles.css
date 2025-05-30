@@ -5,7 +5,7 @@
 }
 
 body {
-  padding: 20px;
+  padding: 10px;
 }
 
 /* navbar */
@@ -13,9 +13,9 @@ body {
 .navbar {
   transition: scale 0, 2s;
   cursor: pointer;
-  width: 100%;
   padding-bottom: 3px;
 }
+
 
 .navbar-brand :hover {
   scale: 1;
@@ -26,25 +26,54 @@ body {
   height: 100vh;
   padding: 20px;
   background-image: url(./assets/background2.jpg);
+  background-size: cover;
 
 }
 
 /* portoflio */
-.portfolio img {
-  width: 450px;
-  padding: 3px;
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin: 30px box-shadow: 10px 6px 23px 0px rgba(0, 0, 0, 0.41);
+}
+
+.card {
+  display: block;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 480px;
   background-color: rgb(213, 175, 195);
-  box-shadow: 10px 6px 23px 0px rgba(0, 0, 0, 0.41);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  gap: 20px;
 }
 
-.title {
-  font-size: 35px;
-  font-weight: 900;
-}
-
-.subtitle {
-  font-size: 30px;
+.presentation {
+  color: rgb(171, 156, 171);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
   font-weight: 700;
+  font-size: 45px;
+  border: 0;
+}
+
+.description {
+  width: 500px;
+  color: rgb(171, 156, 171);
+  padding: 20px 30px;
+  font-style: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
 }
 
 .btn-primary {
@@ -54,3 +83,5 @@ body {
   color: white;
   padding: 8px 15px;
 }
+
+@media (max-width: 480px) {}
