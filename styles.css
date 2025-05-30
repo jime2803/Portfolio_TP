@@ -21,6 +21,21 @@ body {
   scale: 1;
 }
 
+/* background */
+.background img {
+  height: 100vh;
+  padding: 20px;
+  background-image: url(./assets/background2.jpg);
+
+}
+
+/* portoflio */
+.portfolio img {
+  width: 450px;
+  padding: 3px;
+  background-color: rgb(213, 175, 195);
+  box-shadow: 10px 6px 23px 0px rgba(0, 0, 0, 0.41);
+}
 
 .title {
   font-size: 35px;
