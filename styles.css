@@ -8,10 +8,19 @@ body {
   padding: 20px;
 }
 
+/* navbar */
+/* no puedo cambiar el color de fondo ni las fonts */
 .navbar {
+  transition: scale 0, 2s;
+  cursor: pointer;
   width: 100%;
-  color: rgb(80, 78, 78);
+  padding-bottom: 3px;
 }
+
+.navbar-brand :hover {
+  scale: 1;
+}
+
 
 .title {
   font-size: 35px;
