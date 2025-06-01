@@ -16,6 +16,9 @@ body {
   margin: 10px;
   background-image: url(./assets/background2.jpg);
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: ;
 }
 
 /* Tarjeta de presentación */
@@ -39,40 +42,38 @@ body {
 }
 
 /* Imagen */
-.photo {
-  position: relative;
-}
-
 .photo img {
-  /* position: relative; */
-  width: 320px;
-  height: 300px;
+  position: relative;
+  width: 400px;
   object-fit: cover;
-  border-radius: 5px 50px 5px 50px;
+  border-radius: 8px 50px 8px 50px;
   box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
 }
 
 /* Contenido */
 .contenido {
-  background-color: blue;
   display: table-column;
   gap: 30px;
   margin: 30px;
   padding: 20px;
   border-radius: 10px;
+  width: 480px;
 }
 
 .contenido h2 {
   margin: 10px 0;
-  font-size: 36px;
-  color: rgb(171, 156, 171);
-  text-shadow: 2px 2px 4px rgba(177, 174, 174, 0.5);
+  font-size: 40px;
+  /* color: rgb(171, 156, 171); */
+  text-shadow: 2px 2px 4px rgba(154, 144, 144, 0.5);
+  color: white;
 }
 
 .contenido p {
   font-size: 16px;
-  color: rgb(171, 156, 171);
-  justify-content: center;
+  /* color: rgb(171, 156, 171); */
+  text-align: justify;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(154, 144, 144, 0.5);
 }
 
 /* section:Education  */
