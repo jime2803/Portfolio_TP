@@ -4,7 +4,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* header No funciona bien */
+/* header No funciona bien. Se superponen algunos elementos cuando hago scroll. Ayuda para detectar el error */
 .navbar {
   position: fixed;
   width: 100%;
@@ -22,7 +22,6 @@ body {
 }
 
 /* Tarjeta de presentación */
-
 .head-card {
   display: flex;
   align-items: center;
@@ -104,6 +103,27 @@ body {
   color: rgb(171, 156, 171);
 }
 
+/* section experience */
+#experience .title {
+  margin: 10px 0;
+  font-size: 36px;
+  color: rgb(171, 156, 171);
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px 4px rgba(177, 174, 174, 0.5);
+}
+
+
+/* section work */
+#work .title {
+  margin: 10px 0;
+  font-size: 36px;
+  color: rgb(171, 156, 171);
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px 4px rgba(177, 174, 174, 0.5);
+}
+
 /* section contact form */
 #contact {
   background-color: #fff0f5;
@@ -116,7 +136,9 @@ body {
 
 #contact h2 {
   text-align: center;
-  color: #ad1457;
+  /* color: #ad1457; */
+  color: rgb(171, 156, 171);
+  text-shadow: 2px 2px 4px rgba(177, 174, 174, 0.5);
   margin-bottom: 30px;
 }
 
