@@ -17,7 +17,7 @@
 
 <header>
   <!-- Navbar bootstrap -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary custom">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Presentation</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -40,11 +40,12 @@
   <main>
     <!-- porfotlio section -->
     <div class="background">
-      <div class="card">
+      <div class="head-card">
         <!-- photo -->
         <div class="photo">
           <img src="./assets/foto-jime.jpg" alt="Profile Picture">
         </div>
+
         <!-- texto -->
         <div class="contenido">
           <h2 class="name">Jimena Sastre</h2>
@@ -59,6 +60,7 @@
       </div>
     </div>
 
+    <!-- section education -->
     <section id="section2" class="education">
       <div class="title">
         <h2>Education</h2>
@@ -86,10 +88,38 @@
       </div>
     </section>
 
+    <!-- section experience -->
+    <section class="experience"></section>
+
+    <!-- section work -->
+    <section class="work"></section>
+
+    <!-- section contact -->
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+
     <!-- JavaScript bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"></script>
+
+    <footer class="footer">
+      <p>&copy; 2025 Jime Sastre. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
