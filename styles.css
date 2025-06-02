@@ -118,6 +118,10 @@ body {
 #experience .list {
   font-size: 16px;
   text-align: justify;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 50px;
+  margin-left: 200px;
   color: rgb(171, 156, 171);
   text-shadow: 2px 2px 4px rgba(154, 144, 144, 0.5);
 }
