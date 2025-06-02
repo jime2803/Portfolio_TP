@@ -4,11 +4,32 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Bootstrap Navbar */
 .navbar {
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 999;
+}
+
+.navbar .bi {
+  font-size: 1.3rem;
+  margin-left: 10px;
+  color: #ad1457;
+  transition: color 0.3s ease;
+}
+
+.navbar .bi:hover {
+  color: #880e4f;
+}
+
+.navbar .bi-telephone-fill {
+  color: #ad1457;
+  font-size: 1.2rem;
+}
+
+.navbar .nav-link span {
+  margin-left: 5px;
 }
 
 /* fondo color pastel y circulos */
@@ -37,7 +58,6 @@ body {
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  /* max-width: 800px; */
 }
 
 /* Imagen */
