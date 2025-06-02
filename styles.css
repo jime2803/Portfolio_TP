@@ -138,6 +138,7 @@ body {
 }
 
 #education .title {
+  background-color: #ad1457;
   padding-top: 60px;
   margin: 10px 0;
   font-size: 36px;
@@ -154,11 +155,12 @@ body {
 
 .card p {
   font-size: 15px;
-  color: rgb(171, 156, 171);
+  /* color: rgb(171, 156, 171); */
 }
 
 /* section experience */
 #experience .title {
+  background-color: #ad1457;
   padding-top: 60px;
   margin: 10px 0;
   font-size: 36px;
@@ -175,13 +177,24 @@ body {
   grid-template-columns: repeat(2, 400px);
   gap: 50px;
   margin-left: 200px;
-  color: rgb(171, 156, 171);
+  margin-bottom: 30px;
+  /* color: rgb(171, 156, 171); */
   text-shadow: 2px 2px 4px rgba(154, 144, 144, 0.5);
 }
 
 
 /* section work */
+#work .card {
+  margin-inline-start: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
+}
+
 #work .title {
+  background-color: #ad1457;
   padding-top: 60px;
   margin: 10px 0;
   font-size: 36px;
@@ -189,6 +202,11 @@ body {
   display: flex;
   justify-content: center;
   text-shadow: 2px 2px 4px rgba(177, 174, 174, 0.5);
+}
+
+#work .card .h3 {
+  font-size: 20px;
+  color: rgb(120, 114, 120);
 }
 
 /* section contact form */
