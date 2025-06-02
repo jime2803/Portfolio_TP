@@ -12,6 +12,39 @@ body {
   z-index: 999;
 }
 
+/* Aplica a los elementos del navbar */
+.custom .navbar-brand {
+  font-family: 'Georgia', serif;
+  /* Cambia la fuente de 'About Me' */
+  font-size: 1.8rem;
+  /* Tamaño más grande */
+  color: #ad1457 !important;
+  /* Color personalizado */
+}
+
+.custom .nav-link {
+  font-family: 'Arial', sans-serif;
+  /* Fuente para los enlaces */
+  font-size: 1.1rem;
+  /* Tamaño de letra */
+  color: #444 !important;
+  /* Color del texto */
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.custom .nav-link:hover {
+  color: #ad1457 !important;
+  /* Color al pasar el mouse */
+  text-decoration: underline;
+}
+
+/* Estilo para achicar la altura del navbar */
+.navbar.custom {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
 .navbar .bi {
   font-size: 1.3rem;
   margin-left: 10px;
@@ -105,7 +138,7 @@ body {
 }
 
 #education .title {
-  padding-top: 50px;
+  padding-top: 60px;
   margin: 10px 0;
   font-size: 36px;
   color: rgb(171, 156, 171);
@@ -126,7 +159,7 @@ body {
 
 /* section experience */
 #experience .title {
-  padding-top: 50px;
+  padding-top: 60px;
   margin: 10px 0;
   font-size: 36px;
   color: rgb(171, 156, 171);
@@ -149,7 +182,7 @@ body {
 
 /* section work */
 #work .title {
-  padding-top: 50px;
+  padding-top: 60px;
   margin: 10px 0;
   font-size: 36px;
   color: rgb(171, 156, 171);
